@@ -10,7 +10,7 @@ const Actividad1 = () => {
   const nombres = ["Atanagildo", "Leogivildo", "Sisebuto"];
 
   const changeText = (e) => {
-    if (e.target.innerHTML == "Visto") {
+    if (e.target.innerHTML === "Visto") {
       e.target.innerHTML = "";
     } else {
       e.target.innerHTML = "Visto";
